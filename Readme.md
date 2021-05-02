@@ -14,7 +14,6 @@
 - **Note:** AJAX is a new technique for creating better, faster, and more interactive web applications with the help of XML, HTML, CSS, and Java Script.
 - **Administration GUI:** Django provides a nice ready-to-use user interface for administrative activities. Like most modern frameworks, Django supports the MVC pattern(Model-View-Controller), and Model-View-Template (MVT) pattern.
 # Architecture of the Django(Model View Template):
-<div style="color:red; text-align:justify;">
 - Whenever end user sends the URL request, which is received by the URL Dispatcher.
 - URL dispatcher is a program which is used to compare requested URL with list of urls present urls.py(it is created by django automatically at the time of creating project), 
 if there is matching url, the function which is configured with the url is executed. Otherwise result will be runtime error.
@@ -30,6 +29,5 @@ if there is matching url, the function which is configured with the url is execu
 - The models.py class will be automatically created at the time of creating an app’s.
 - After processing the client request by the view, view will transfer the result to the template (template is text file which contains html + python code). Template will be
 rendered into html which is forwarded to the browser for presentation.
-</div>
 
 
