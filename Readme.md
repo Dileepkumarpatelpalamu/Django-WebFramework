@@ -29,5 +29,13 @@ if there is matching url, the function which is configured with the url is execu
 * The models.py class will be automatically created at the time of creating an app’s.
 * After processing the client request by the view, view will transfer the result to the template (template is text file which contains html + python code). Template will be
 rendered into html which is forwarded to the browser for presentation.
+> # Django project
+In Django a project is a collection of applications. An application is a set of code files relying on the MVT pattern. As example let's say we want to build a website, the website is our project and, the forum, news, contact engine are applications. This structure makes it easier to move an application between projects since every application is independent.
+## How create a project in django
+1. Open the command prompt
+2. type django-admin startproject projectname
+![](file:///C:/Users/Dileep-Pcs/Videos/Movavi%20Screen%20Recorder/1.png)
+
+
 ># Directory Structure of Django Projects
 
