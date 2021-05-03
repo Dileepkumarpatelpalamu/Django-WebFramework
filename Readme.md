@@ -1,4 +1,4 @@
-># Django WebFramework Tutorials
+># Django Web Framework Tutorials
 * Started by Adrian Holovaty and Simon Willison in the year 2003
 * It released July 2005
 * Django is now an open source web framework with contributors across the world.
@@ -13,7 +13,7 @@
 * **Framework Support:** Django has built-in support for Ajax(Asynchronous JavaScript And XML), Caching and various other frameworks.
 * **Note:** AJAX is a new technique for creating better, faster, and more interactive web applications with the help of XML, HTML, CSS, and Java Script.
 * **Administration GUI:** Django provides a nice ready-to-use user interface for administrative activities. Like most modern frameworks, Django supports the MVC pattern(Model-View-Controller), and Model-View-Template (MVT) pattern.
-# Architecture of the Django(Model View Template):
+># Architecture of the Django(Model View Template):
 * Whenever end user sends the URL request, which is received by the URL Dispatcher.
 * URL dispatcher is a program which is used to compare requested URL with list of urls present urls.py(it is created by django automatically at the time of creating project), 
 if there is matching url, the function which is configured with the url is executed. Otherwise result will be runtime error.
