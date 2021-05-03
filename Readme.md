@@ -29,3 +29,5 @@ if there is matching url, the function which is configured with the url is execu
 * The models.py class will be automatically created at the time of creating an app’s.
 * After processing the client request by the view, view will transfer the result to the template (template is text file which contains html + python code). Template will be
 rendered into html which is forwarded to the browser for presentation.
+># Directory Structure of Django Projects
+
