@@ -34,8 +34,16 @@ In Django a project is a collection of applications. An application is a set of 
 ## How create a project in django
 1. Open the command prompt
 2. type django-admin startproject projectname
-![](file:///C:/Users/Dileep-Pcs/Videos/Movavi%20Screen%20Recorder/1.png)
-
-
+###### for example we want to create collegeproject then we type like follows
+django-admin startproject collegeproject
 ># Directory Structure of Django Projects
+* collegeproject
+    * collegeproject 
+        * __init__.py
+        * asgi.py
+        * settings.py
+        * urls.py
+        * wsgi.py
+        * 
+ * manag.py 
 
